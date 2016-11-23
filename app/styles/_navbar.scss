@@ -1,0 +1,46 @@
+.navbar-brand {
+  transition: all 240ms linear;
+}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: teal;
+}
+.navbar-default {
+  transition: all 240ms linear;
+  .navbar-nav > li > a {
+    transition: all 240ms linear;
+    text-align: center;
+    color: #8e8e8e;
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+.navbar-nav > li {
+  transition: all 240ms linear;
+  margin-right: 2px;
+}
+@media (min-width: 768px) {
+  .navbar-nav > li:hover {
+    background-color: rgba(78, 163, 199, 0.5);
+    border-radius: 5px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24)
+  }
+}
+.navbar-nav > li > .dropdown-menu {
+  background-color: #F2f1f0;
+  border: none;
+  border-radius: 2px;
+  text-align: center;
+  min-width: 0;
+  margin:2px 0px 0 0;
+  a {
+    transition: all 240ms linear;
+  }
+  a:hover {
+    background-color: #d4d3d1;
+  }
+}
+//#5aaa9e;

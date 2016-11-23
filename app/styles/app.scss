@@ -1,0 +1,69 @@
+$brand-highlight-color: #68b2d1;
+$navbar-default-bg: teal;
+$navbar-default-link-active-color: #fff;
+$navbar-default-toggle-icon-bar-bg: #fff;
+$navbar-default-link-active-bg: transparent;
+$navbar-default-toggle-border-color: transparent;
+$navbar-default-link-hover-color: #fff;
+$navbar-height: 45px;
+
+$navbar-default-color:             #fff;
+$navbar-default-border:            none;
+
+// Navbar links
+$navbar-default-link-color:                #fff !default;
+$navbar-default-link-hover-bg:             transparent !default;
+$navbar-default-link-active-color:         #fff !default;
+$navbar-default-link-active-bg:            #fff !default;
+$navbar-default-link-disabled-color:       #fff !default;
+
+// Navbar brand label
+$navbar-default-brand-color:               white !default;
+$navbar-default-brand-hover-color:         #fff !default;
+$navbar-default-brand-hover-bg:            transparent !default;
+
+// Navbar toggle
+$navbar-default-toggle-hover-bg:           #fff !default;
+$navbar-default-toggle-icon-bar-bg:        #fff !default;
+$navbar-default-toggle-border-color:       #fff !default;
+
+
+//=== Shared nav styles
+$nav-link-padding:                          10px 15px !default;
+$nav-link-hover-bg:                         red !default;
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background: #67B26F;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(320deg, #67B26F , #4ca2cd);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(320deg, #67B26F , #4ca2cd);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding-top: 74px;
+  padding-bottom: 60px;
+  font: 16px/1 'Roboto', sans-serif;
+  color: #4d4d4d;
+  font-weight: lighter;
+  -webkit-font-smoothing: antialiased;
+  height: 100%;
+  width: 100%;
+}
+
+.navbar div .title,
+.navbar div .title:hover {
+  color: #fff;
+  max-width: 200px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 1.75em;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+@import "bootstrap";
+@import "_navbar";
+@import "_utils";
+@import "_footer";
+@import "_soar-calculator";

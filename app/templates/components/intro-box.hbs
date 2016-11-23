@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="jumbotron">
+    <h1>Simple but helpful.</h1>
+    <p>Soar Tools is a collection of utilities to help with everyday tasks. Play around and check them out.</p>
+    <ul class="list-inline">
+      {{#each highlighs as |tool|}}
+        <li class="text-primary">
+          {{#link-to tool.link tagName='a'}}
+            {{tool.name}}
+          {{/link-to}}
+        </li>
+
+      {{/each}}
+    </ul>
+  </div>
+</div>
